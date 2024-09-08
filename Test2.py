@@ -19,6 +19,13 @@ Here's an example return object based on our example input:
 Note that items having onSale set to true should have '($)' appended to their item name.
 
 Please complete the function organizeItems and validate it is working by running the tests.Your function should work for any similarly formatted input data, not just the example data we've provided.
+
+Test Results:
+- Should organize a single item (that's not in the example data set)
+- Should organize multiple items in a single category
+- Should organize multiple categories
+- Should add '($)' to items on sale
+- Should organize the example data set
 """
 
 # I am going to solve this question in Python. The recommended time is 20 minutes. If I go over it, I fail.
